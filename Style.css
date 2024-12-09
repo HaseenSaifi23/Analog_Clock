@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  height: 25vw;
+  width: 25vw;
+  background: url("watch-face-different-numerals-without-260nw-162362801.webp")
+    no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.hours,
+.minuts,
+.second {
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+.hours {
+  width: 1%;
+  height: 25%;
+  left: 50%;
+  top: 26.5%;
+  border: 2px solid rgb(0, 0, 0);
+}
+.minuts {
+  width: 1%;
+  height: 29%;
+  left: 50%;
+  top: 22%;
+  border: 2px solid rgb(220, 153, 20);
+}
+
+.second {
+  width: 1%;
+  height: 31%;
+  left: 50%;
+  top: 20%;
+  border: 2px solid rgb(220, 97, 20);
+}
